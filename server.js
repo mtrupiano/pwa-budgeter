@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static(__dirname + "/public"));
 
-const db = require('./models');
+// const db = require('./models');
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
