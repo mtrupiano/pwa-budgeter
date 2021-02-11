@@ -12,6 +12,7 @@ const staticFilesToPreCache = [
     "/index.js",
     "/styles.css",
     "/manifest.webmanifest",
+    '/icons/favicon.ico'
 ].concat(iconFiles);
 
 // install
